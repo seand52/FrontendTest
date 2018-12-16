@@ -10,7 +10,7 @@ const logic = {
     if (typeof query !== 'string') throw new TypeError(`${query} is not a string`);
     if (!query.trim()) throw Error('query is empty or blank');
 
-    const route = `users/${query}?client_id=b3e05f23e2b916caaecf&client_secret=09d3a0e651592855fa50193d32834f121a939d0a`;
+    const route = `users/${query}`;
     const options = {
       method: 'GET',
     };
@@ -36,7 +36,7 @@ const logic = {
     if (typeof query !== 'string') throw new TypeError(`${query} is not a string`);
     if (!query.trim()) throw Error('query is empty or blank');
 
-    const route = `users/${query}/repos?client_id=b3e05f23e2b916caaecf&client_secret=09d3a0e651592855fa50193d32834f121a939d0a`;
+    const route = `users/${query}/repos`;
     const options = {
       method: 'GET',
     };
