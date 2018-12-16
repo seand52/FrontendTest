@@ -1,4 +1,34 @@
 # FrontendTest
+# Live Demo
+[Live demo](https://github-search-seand.surge.sh)
+# View Documentation
+[View the documentation](./docs)
+
+
+## Live Demo 
+
+# Getting Started
+
+Navigate to root folder of the project and then use this command 
+## Run Application
+
+```bash
+$ open index.html
+```
+
+## Run Tests
+
+### Business Logic 
+```bash
+$ open logic.spec.html
+```
+### Components test 
+```bash
+$ open components.spec.html
+```
+
+Note: If you are running windows type start instead of open in the command line
+
 
 ## GOALS
 
